@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>SolSoft | Portfolio</title>
+
+    <!-- ---------------Default CSS---------------- -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- ---------------Default CSS---------------- -->
+
+    <!-- ---------------Bootstrap---------------- -->
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/bootstrap.bundle.min.js"></script>
+    <!-- ---------------Bootstrap---------------- -->
+
+    <!-- ---------------Slick---------------- -->
+    <link rel="stylesheet" href="./css/vendor/slick-theme.css" />
+    <link rel="stylesheet" href="./css/vendor/slick.css" />
+    <!-- ---------------Slick---------------- -->
+
+    <!-- ---------------JQuery---------------- -->
+    <script src="./js/vendor/jquery-3.6.3.min.js"></script>
+    <!-- ---------------JQuery---------------- -->
+
+    <!-- ---------------Font-Awesome CDN---------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ---------------Font-Awesome CDN---------------- -->
+  </head>
+  <body>
+    <main id="portfolio">
+      <!-- -------------Nav section Start ----------- -->
+      <nav>
+        <section id="navbar-1">
+          <div class="nav-wrapper">
+            <div class="d-flex align-items-center justify-content-between">
+              <!-- logo start -->
+              <div class="logo-wrapper">
+                <div class="logo">
+                  <a href="/index.html">
+                    <img src="images/logo1.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- logo end -->
+              <div class="nav-content">
+                <div class="clip-path"></div>
+                <div class="white__background"></div>
+                <div class="paragraph notification">
+                  <span> No1 : World’s Best Buisness Company In America </span>
+                  <a href="">
+                    <i class="fa-solid fa-user-tie"></i> Login / Register
+                  </a>
+                </div>
+                <div class="clip-border">
+                  <div class="options">
+                    <div class="each-optins-list d-flex align-items-center">
+                      <ul class="menus d-flex align-items-center">
+                        <li class="menu dropdown">
+                          <a href="/index.html">HOME </a>
+                          <div
+                            class="dropdown__menu submenu"
+                            aria-label="submenu"
+                          >
+                            <a href="/index.html">Home 1</a>
+                            <a href="/index2.html">Home 2</a>
+                            <a href="/index3.html">Home 3</a>
+                          </div>
+                        </li>
+                        <li class="menu">
+                          <a href="/about.html">ABOUT</a>
+                        </li>
+                        <li class="menu">
+                          <a href="/services.html">SERVICES</a>
+                        </li>
+                        <li class="menu">
+                          <a href="/blog.html">BLOG</a>
+                        </li>
+
+                        <li class="menu dropdown">
+                          <a>PAGES</a>
+                          <div
+                            class="dropdown__menu submenu bigger-width"
+                            aria-label="submenu"
+                          >
+                            <a href="/service-details.html">SERVICE DETAILS</a>
+                            <a href="/blog-details.html">BLOG DETAILS</a>
+
+                            <a href="/team.html">TEAM</a>
+                            <a href="/team-details.html">TEAM DETAILS</a>
+                            <a href="/portfolio.html">PORTFOLIO</a>
+                            <a href="/portfolio-details.html"
+                              >PORTFOLIO DETAILS</a
+                            >
+                            <a href="/faqs.html">FAQS</a>
+                            <a href="/pricing.html">PRICE</a>
+                          </div>
+                        </li>
+                        <li class="menu">
+                          <a href="/contact-us.html">CONTACT</a>
+                        </li>
+                      </ul>
+
+                      <div class="search-option">
+                        <div class="d-flex align-items-center">
+                          <div
+                            class="search"
+                            type="button"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal"
+                          >
+                            <i class="fa-solid fa-magnifying-glass demo"></i>
+                          </div>
+                          <div
+                            class="modal fade"
+                            id="modal"
+                            tabindex="-1"
+                            aria-labelledby="modalLabel"
+                            aria-hidden="true"
+                          >
+                            <div
+                              class="modal-dialog modal-dialog modal-dialog-centered"
+                            >
+                              <div class="modal-content">
+                                <div class="modal-form">
+                                  <input
+                                    class="modal-input"
+                                    type="text"
+                                    placeholder="Search"
+                                  />
+                                  <div
+                                    class="modalRightArrow"
+                                    id="modalRightArrowBtn"
+                                  >
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="get-start-button" href=""> Get Started </a>
+
+                          <div class="menu-icon">
+                            <div id="nav-lines">
+                              <svg viewbox="0 0 64 64">
+                                <line
+                                  id="nav-line-1"
+                                  x1="8"
+                                  x2="35"
+                                  y1="16"
+                                  y2="16"
+                                  class="nav-line"
+                                />
+                                <line
+                                  id="nav-line-2"
+                                  x1="8"
+                                  x2="45"
+                                  y1="32"
+                                  y2="32"
+                                  class="nav-line"
+                                />
+                                <line
+                                  id="nav-line-3"
+                                  x1="8"
+                                  x2="56"
+                                  y1="48"
+                                  y2="48"
+                                  class="nav-line"
+                                />
+
+                                <line
+                                  x1="16"
+                                  x2="48"
+                                  y1="16"
+                                  y2="48"
+                                  class="cross-line"
+                                />
+                                <line
+                                  x1="16"
+                                  x2="48"
+                                  y1="48"
+                                  y2="16"
+                                  class="cross-line"
+                                />
+
+                                <rect
+                                  class="rect"
+                                  width="42"
+                                  height="42"
+                                  x="11"
+                                  y="11"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile navbar start -->
+          <div class="mobile-nav">
+            <div
+              class="close-nav d-flex align-items-center justify-content-between mb-20"
+            >
+              <div class="logo">
+                <a href="/index.html">
+                  <img src="images/logo2.png" alt="" />
+                </a>
+              </div>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+
+            <div class="d-flex justify-content-end align-items-center">
+              <div
+                class="search mr-20"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div
+                  class="modal fade"
+                  id="modal"
+                  tabindex="-1"
+                  aria-labelledby="modalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <form class="modal-form">
+                        <input
+                          class="modal-input"
+                          id="modal-input"
+                          type="text"
+                          placeholder="Search"
+                        />
+                        <div class="modalRightArrow">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="get-start-button" href=""> Get Started </a>
+            </div>
+
+            <div class="space120"></div>
+
+            <ul class="mobile-menus">
+              <li class="mobile-menu has-dropdown">
+                <a class="dropdown-arrow" href="">HOME </a>
+
+                <ul class="submenu">
+                  <li><a href="index.html">Home 1</a></li>
+                  <li><a href="index2.html">Home 2</a></li>
+                  <li><a href="index3.html">Home 3</a></li>
+                </ul>
+              </li>
+              <li class="mobile-menu">
+                <a href="/about.html">ABOUT</a>
+              </li>
+              <li class="mobile-menu">
+                <a href="/services.html">SERVICES</a>
+              </li>
+              <li class="mobile-menu">
+                <a href="/blog.html">BLOG</a>
+              </li>
+              <li class="mobile-menu has-dropdown">
+                <a class="dropdown-arrow" href="">PAGES</a>
+                <ul class="submenu">
+                  <li><a href="/service-details.html">SERVICE DETAILS</a></li>
+                  <li><a href="/blog-details.html">BLOG DETAILS</a></li>
+                  <li><a href="/team.html">TEAM</a></li>
+                  <li><a href="/team-details.html">TEAM DETAILS</a></li>
+                  <li><a href="/portfolio.html">PORTFOLIO</a></li>
+                  <li>
+                    <a href="/portfolio-details.html">PORTFOLIO DETAILS</a>
+                  </li>
+                  <li><a href="/faqs.html">FAQS</a></li>
+                  <li><a href="/pricing.html">PRICE</a></li>
+                </ul>
+              </li>
+              <li class="mobile-menu">
+                <a href="/contact-us.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-nav-overlay"></div>
+          <!-- Mobile navbar end -->
+        </section>
+      </nav>
+      <!-- -------------Nav section End ----------- -->
+
+      <!-- ---------------Sub Heder Banner---------------- -->
+      <section
+        style="
+          background-image: url(images/sub-banner.png);
+          background-color: rgb(255, 255, 255);
+        "
+        class="sub-header position-relative"
+      >
+        <div class="container">
+          <div class="page-info position-absolute">
+            <h2 class="heading-2">Our Portfolio</h2>
+            <h6 class="heading-6">
+              <a href="index.html">Home</a> / <a href="#">Portfolio</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------Sub Heder Banner---------------- -->
+
+      <!---------------Latest Porjects  --------------------->
+
+      <section id="projects">
+        <div class="container">
+          <div
+            class="section-heading d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="space120"></div>
+            <h2 class="heading-2 mb-20">Our Latest Projects</h2>
+
+            <div class="paragraph">
+              On the other hand denounce righteous indignation dislike mens who
+              beguiled and demoralized charmso pleasure
+            </div>
+          </div>
+        </div>
+
+        <!-- categories section -->
+        <div id="categories" class="container">
+          <div
+            class="container d-flex align-items-center justify-content-center mb-30"
+          >
+            <div class="filter">
+              <li id="filter-all" class="filter-item active">All</li>
+              <li id="filter-coaching" class="filter-item">Coaching</li>
+              <li id="filter-facilitation" class="filter-item">Facilitation</li>
+              <li id="filter-stakeholder" class="filter-item">Stakeholder</li>
+              <li id="filter-relations" class="filter-item">Relations</li>
+              <li id="filter-strategy" class="filter-item">Strategy</li>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="project-card-container">
+              <div
+                class="project-card-wrapper"
+                data-category="relations coaching facilitation starategy"
+              >
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative">
+                    <div class="img-wrapper">
+                      <img src="images/portfolio/projects/1.png" alt="" />
+                    </div>
+
+                    <div
+                      class="info d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <h6 class="heading-6">SEO Optimization</h6>
+                      <div class="paragraph">Relations</div>
+                    </div>
+
+                    <a href="#" class="icon position-absolute">
+                      <span>
+                        <i class="fa-solid fa-arrow-turn-down"></i>
+                      </span>
+                    </a>
+                  </div>
+                </a>
+              </div>
+              <div class="project-card-wrapper" data-category="coaching">
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative active">
+                    <div>
+                      <div class="img-wrapper">
+                        <img src="images/portfolio/projects/2.png" alt="" />
+                      </div>
+
+                      <div
+                        class="info d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <h6 class="heading-6">Financial Planning</h6>
+                        <div class="paragraph">Coaching</div>
+                      </div>
+
+                      <a href="#" class="icon position-absolute">
+                        <span>
+                          <i class="fa-solid fa-arrow-turn-down"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="project-card-wrapper" data-category="coaching">
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative">
+                    <div>
+                      <div class="img-wrapper">
+                        <img src="images/portfolio/projects/3.png" alt="" />
+                      </div>
+
+                      <div
+                        class="info d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <h6 class="heading-6">Platform Integration</h6>
+                        <div class="paragraph">Coaching</div>
+                      </div>
+
+                      <a href="#" class="icon position-absolute">
+                        <span>
+                          <i class="fa-solid fa-arrow-turn-down"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="project-card-wrapper" data-category="facilitation">
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative">
+                    <div>
+                      <div class="img-wrapper">
+                        <img src="images/portfolio/projects/4.png" alt="" />
+                      </div>
+
+                      <div
+                        class="info d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <h6 class="heading-6">Buisness Meeting</h6>
+                        <div class="paragraph">Facilitation</div>
+                      </div>
+
+                      <a href="#" class="icon position-absolute">
+                        <span>
+                          <i class="fa-solid fa-arrow-turn-down"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="project-card-wrapper" data-category="facilitation">
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative">
+                    <div>
+                      <div class="img-wrapper">
+                        <img src="images/portfolio/projects/5.png" alt="" />
+                      </div>
+
+                      <div
+                        class="info d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <h6 class="heading-6">Analytics Report</h6>
+                        <div class="paragraph">Facilitation</div>
+                      </div>
+
+                      <a href="#" class="icon position-absolute">
+                        <span>
+                          <i class="fa-solid fa-arrow-turn-down"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="project-card-wrapper"
+                data-category="stakeholder strategy"
+              >
+                <a href="/portfolio-details.html">
+                  <div class="project-card position-relative">
+                    <div>
+                      <div class="img-wrapper">
+                        <img src="images/portfolio/projects/6.png" alt="" />
+                      </div>
+
+                      <div
+                        class="info d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <h6 class="heading-6">Investment Planning</h6>
+                        <div class="paragraph">Stakeholder</div>
+                      </div>
+
+                      <a href="#" class="icon position-absolute">
+                        <span>
+                          <i class="fa-solid fa-arrow-turn-down"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-50">
+            <a href="#" class="button-primary-1">
+              <span> Load More </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- categories section -->
+        <div class="space120"></div>
+      </section>
+
+      <!--------------------latest Porjects  -->
+
+      <!---------------------- Newsletter  ------------------->
+
+      <section
+        style="
+          background-image: url(images/portfolio/newsLetter/bg.png),
+            linear-gradient(0deg, #03041c, #03041c);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+        id="newsletter"
+        class="portfolio__newsletter"
+      >
+        <div class="container newsletter-Wrapper">
+          <div class="text">
+            <h3>Join to Our Newsletter For More Info</h3>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply</p>
+          </div>
+          <form class="form" action="">
+            <div class="email-wrapper">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <a href="#" type="submit" class="subscribe-btn">
+                <span> Subscribe </span>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!---------------------- Newsletter  ------------------->
+
+      <div class="space120"></div>
+      <!--------------------- Buisness process ----------------------- -->
+      <section id="buisness-process">
+        <div class="container">
+          <div class="buisness-wrapper row g-4 d-flex align-items-center">
+            <div class="left col-md-5">
+              <p class="header">buisness Process</p>
+              <h3 class="title">Easy Way Build Success your buisness Plan</h3>
+              <div
+                class="showOnSmallscreen d-none d-md-none"
+                style="
+                  background-image: url(images/portfolio/buisness-process/bg.png);
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: top;
+                "
+              >
+                <img
+                  src="images/portfolio/buisness-process/1.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <p class="desc">
+                On the other hand denounce righteous indignation dislike mens
+                who beguiled and demoralized charmso pleasure
+              </p>
+              <div>
+                <!-- skill range progressive bar -->
+                <div class="skill-box">
+                  <span class="skill-title">Productivity</span>
+                  <div class="skill-bar">
+                    <span class="skill-per skill-per1 Productivity">
+                      <span class="skill-tooltip">75%</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill-box">
+                  <span class="skill-title">Digital Marketing</span>
+                  <div class="skill-bar">
+                    <span class="skill-per skill-per2 digiMarket">
+                      <span class="skill-tooltip">85%</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="skill-box">
+                  <span class="skill-title">Technology</span>
+                  <div class="skill-bar">
+                    <span class="skill-per skill-per3 technology">
+                      <span class="skill-tooltip">65%</span>
+                    </span>
+                  </div>
+                </div>
+                <!-- skill range progressive bar -->
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div
+              class="right d-none d-md-block col-md-6"
+              style="
+                background-image: url(images/portfolio/buisness-process/bg.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+              "
+            >
+              <img
+                src="images/portfolio/buisness-process/1.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Buisness process  -->
+
+      <div class="space120"></div>
+
+      <!-----------------Footer-----Start-------------->
+      <section
+        style="
+          background-image: url(images/footer/bg.png),
+            linear-gradient(0deg, #03041c, #03041c);
+        "
+        id="footer"
+      >
+        <div class="footer-top">
+          <div class="container">
+            <div
+              class="d-flex flex-column flex-md-row align-items-center justify-content-end"
+            >
+              <h2 class="heading-2 mr-50">NewsLetter</h2>
+              <form
+                class="d-flex flex-column flex-md-row align-items-center"
+                action=""
+              >
+                <div class="email-wrapper">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                  />
+                </div>
+
+                <a href="#" type="submit" class="subscribe-btn">
+                  <span> Read More </span>
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-body">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md-6 col-xl-4">
+                <div class="about-company">
+                  <div class="logo-wrapper">
+                    <img src="images/logo1.png" alt="" />
+                  </div>
+
+                  <div class="content">
+                    <h2 class="heading-3">About Company</h2>
+
+                    <div class="paragraph">
+                      Professionally monetize timely paradigms for team driven
+                      action items. Seamlessly expedite superior meta-services
+                      via cooperative.
+                    </div>
+
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a href="#"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li class="active">
+                          <a href="#"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-xl-2">
+                <div class="wrapper">
+                  <h4 class="heading-4">Quick Links</h4>
+                  <ul>
+                    <li><a href="#">Business Consulting</a></li>
+                    <li class="active"><a href="#">Financial Investment</a></li>
+                    <li><a href="#">Corporate Business</a></li>
+                    <li><a href="#">IT Consulting</a></li>
+                    <li><a href="#">Web Strategy</a></li>
+                    <li><a href="#">Business Development</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-xl-3">
+                <div class="wrapper">
+                  <h4 class="heading-4">Popular Posts</h4>
+
+                  <a href="#">
+                    <div class="d-flex news">
+                      <div class="img-wrapper">
+                        <img
+                          src="images/footer/1.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+
+                      <div class="info">
+                        <div class="paragraph">
+                          Technology Is A Great Turning
+                        </div>
+                        <div class="date">10 May, 2023</div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="#">
+                    <div class="d-flex news">
+                      <div class="img-wrapper">
+                        <img
+                          src="images/footer/2.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+
+                      <div class="info">
+                        <div class="paragraph">
+                          Technology Is A Great Turning
+                        </div>
+                        <div class="date">10 May, 2023</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-xl-3">
+                <div class="wrapper">
+                  <h4 class="heading-4">Contact Us</h4>
+                  <div class="d-flex contact">
+                    <div class="icon-wrapper">
+                      <span>
+                        <i class="fa-solid fa-phone"></i>
+                      </span>
+                    </div>
+
+                    <div class="info">
+                      <div class="paragraph">+012 (345) 6789</div>
+                      <div class="paragraph">+44 (0) 20 9994 7740</div>
+                    </div>
+                  </div>
+                  <div class="d-flex contact">
+                    <div class="icon-wrapper active">
+                      <span>
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                    </div>
+
+                    <div class="info">
+                      <div>
+                        <a href="mailto:example@gmail.com" class="paragraph"
+                          >example@gmail.com
+                        </a>
+                      </div>
+
+                      <div>
+                        <a href="#" target="_blank" class="paragraph"
+                          >info@zura.com
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex contact">
+                    <div class="icon-wrapper">
+                      <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                      </span>
+                    </div>
+
+                    <div class="info">
+                      <div class="paragraph">Office 4 Road 3 , north city</div>
+                      <div class="paragraph">7124 Landmark Tower,New York</div>
+                    </div>
+                  </div>
+
+                  <div class="wrapper d-block d-md-none">
+                    <h4 class="heading-4">Policy</h4>
+                    <ul>
+                      <li><a href="">Sitemap </a></li>
+                      <li><a href=""> Privacy Policy </a></li>
+                      <li><a href=""> Cookie Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="footer-bottom">
+              <div
+                class="d-flex justify-content-center justify-content-md-between align-items-center"
+              >
+                <div class="paragraph">
+                  <span>Copyright ©</span>
+                  <span id="current-year"></span>
+                  <span
+                    ><a href="https://solutya.com/">Solutya Pvt. Ltd.</a>
+                  </span>
+                  All Rights Reserved
+                </div>
+                <div class="infos">
+                  <ul class="d-none d-md-flex">
+                    <li><a href="">Sitemap </a></li>
+                    <li><a href="">Privacy Policy </a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button id="scroll-to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----------------Footer----End--------------->
+    </main>
+
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // -------------------- check main.js file if not available there-----------------
+
+      // --------------Get the filter items and project cards start---------------
+      const filterItems = document.querySelectorAll(".filter-item");
+      const projectCards = document.querySelectorAll(".project-card-wrapper");
+
+      // Add click event listener to each filter item
+      filterItems.forEach((item) => {
+        item.addEventListener("click", () => {
+          // Remove the 'active' class from all filter items
+          filterItems.forEach((filterItem) => {
+            filterItem.classList.remove("active");
+          });
+          // Add the 'active' class to the clicked filter item
+          item.classList.add("active");
+
+          // Get the selected filter category
+          const selectedCategory = item.id.replace("filter-", "");
+
+          // Show/hide project cards based on the selected category
+          projectCards.forEach((card) => {
+            const cardCategories = card.dataset.category.split(" ");
+
+            if (
+              selectedCategory === "all" ||
+              cardCategories.includes(selectedCategory)
+            ) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+      // --------------Get the filter items and project cards end---------------
+      // ------------------ project card -------active----------start
+      const projectCard = document.querySelectorAll(".project-card");
+
+      projectCard.forEach((item) => {
+        item.addEventListener("mouseover", () => {
+          // Remove active class from the second child
+          projectCard[1].classList.remove("active");
+        });
+      });
+      // ------------------project card---------active-----------end
+
+      // -----------------------skill range progressive bar---------------start----
+      // Select the plan div
+      const planElement = document.querySelector(".buisness-wrapper");
+      // Select all skill-per elements
+      const skillPerElements = document.querySelectorAll(".skill-per");
+
+      // Create a new Intersection Observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Add the skill-poacity class to each skill-per element
+            skillPerElements.forEach((skillPerElement) => {
+              skillPerElement.classList.add("skill-poacity");
+            });
+          } else {
+            // Remove the skill-poacity class from each skill-per element
+            skillPerElements.forEach((skillPerElement) => {
+              skillPerElement.classList.remove("skill-poacity");
+            });
+          }
+        });
+      });
+      // Start observing the plan div
+      observer.observe(planElement);
+
+      // --------------------------skill range progressive bar End-------
+    </script>
+  </body>
+</html>
